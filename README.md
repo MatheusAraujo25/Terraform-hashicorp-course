@@ -18,22 +18,27 @@ O respositório está divido em pastas com base no que foi aprendido. Os arquivo
 > Alguns dos diretórios quando executados retornaram erro, isso ocorre ,pois, durante o curso houve a modificação e exclusão de códigos, pastas e arquivos.  
 </br>
 
-### 🔑 Conceitos chaves do kubernetes que foram abordados: 
+### 🔑 Conceitos chaves: 
 > [!IMPORTANT]
-> Escreveer.  
+> Compreessão e intendimento amplo sobre os states e sua importância no terraform para manter um ambiente estável e mutável quando existir a necessidade, sem tranformar o ambiente em uma bola de neve 🌨️. Controle sobre o terraform workflow 🌊.   
 </br>
 
 ## 📜  Resumo de alguns aprendizados obtidos durarante a realização das aulas:
-- Gerar minhas próprias imagens do docker, porém, distroless - imagens que usam somente os pacotes necessários para a sua execução, nada além disso, reduzindo asssim a superficie de ataque - usar o wolfi da chainguard e o Docker Scout para scanear as vulnerabilidades existentes na imagem, listando e indicando as modificações que podem ser feita para aprimorar a segurança. A vantagem desse processo é que reduzimos/zeramos as vulnerabilidades das imagens, principal fonte de exploração do cracker - oposto do hacker que usa suas habilidades para boas causas. Além de reduzirmos o peso das imagens,**otimizamos elas e facilitando o seu uso devido a sua simplicidade.**
-- Uso do software Locust para testar a aplicação levando ao limite - Stress test - deste modo conseguia aplicar as modificações no manifesto de acordo com os testes, limitando recursos, usando o HPA, probes, de acordo com os resultados dos testes.
-- Custom resource no Kubernetes - possibilidade de adicionar recursos no cluster - como, Locust, Ingres, Grafana, Prometheus, Wolfi, Kyvern e muitos outros.
-- Como gerenciar os acessos usando Role-Based Access Control (RBAC) e criar ambientes sem variações de recursos garantindo os mesmos parâmetros, por exemplo, que o pod que contém o banco de dados sempre tera o mesmo IP - isso é feito com o StateFullSet.
-
-</br>
+- Funcionamento de cada tipo de bloco de código dentro do terraform e sua função: variables, data block, local variables, etc.
+- Como utilizar múltiplos providers em um mesmo ambiente terraform.
+- Gerar chaves SSH junto com o terraform TLS Provider.
+- Debugar o terraform, como ativar essa opção e desativa-lá.
+- State Locking - controle sobre as execuções de alterações e atualizações no terraform state, ou seja, enquanto um usuário estiver executando qualquer ação o outro será barrado até o termino da execução atual. Isso evita problemas no controle do terraform state. 
+- Gerar revisar e aplicar um deploy usando o comando - terraform plan 
+- Terraform cloud, como usar de formar correta e gerenciar equipes.
+- Uso do terraform Graph para gerar um fluxograma/digrama do código terraform.
+- Resource Life Cycle - um controle mais cirúrgico sobre o processo de criação e exclusão de um recurso, podendo assim determinar de que forma as ações serão executadas.
+- O uso de Secrets junto com o Vault.  
+<br>
 
 > [!NOTE]
 > ### Todos esses recursos foram explorados durante o curso:
->
+> Variables . Local variables . Data Block . Configuration Block . Module Block . OutputBlock .  providers .  TLS provider .  provisioners . taints . replace .  workspaces . Debugging . modules . module source . inputs . outputs module scope . public modules . modules versioning . terraform workflow . terraform workflow . etc. 
 
 </br>
 
