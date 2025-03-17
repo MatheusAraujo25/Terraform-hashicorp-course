@@ -7,17 +7,20 @@
 ### Sobre a organização das pastas 
 O respositório está divido em pastas com base no que foi aprendido. Os arquivos não estão 100% organizados, durante todo o curso foram feitas implementações com foco em aprender sobre os recursos, por conta disso, não houve enfáse na organização do código. Ao percorrer as pastas serão encontrados comentários. As pastas presentes nesse repositório:  
 - 📁 basic-about-terraform
-- 📁 core-terraform-flow
-- 📁 deep-dive
 - 📁 default-course-conf
+- 📁 core-terraform-flow
 - 📁 learn-about-state
 - 📁 terraform-cloud
+- 📁 deep-dive
 - 📁 additional-terraform 
 
+> [!NOTE]
+> Alguns dos diretórios quando executados retornaram erro, isso ocorre ,pois, durante o curso houve a modificação e exclusão de códigos, pastas e arquivos.  
+</br>
 
 ### 🔑 Conceitos chaves do kubernetes que foram abordados: 
 > [!IMPORTANT]
-> Container Engine, Open container initiative (OCI), Container Runtime; Arquitetura do Kubernetes: API Server, ETCD, Sheduler, Controller Manager,  Kubelet, Kube Proxy, Deamon set;  
+> Escreveer.  
 </br>
 
 ## 📜  Resumo de alguns aprendizados obtidos durarante a realização das aulas:
@@ -30,7 +33,7 @@ O respositório está divido em pastas com base no que foi aprendido. Os arquivo
 
 > [!NOTE]
 > ### Todos esses recursos foram explorados durante o curso:
-> Kubernetes · Docker · Kyverno · Ingres · Prometheus · Grafana · Service Monitor · Helm charts · Helm  · Secrets · Probes · Kind · Services · Distroless image · Canary · Docker Scout · Trivy · Horizontal Pod Autoscaling (HPA) · locust · Container Network Interface (CNI) · Network Policy · Storage Class · Statefullset · Headless Service · Cluster IP · Node Port · Load Balance · External name · Docker Hub · Context Kubernetes · Cert-Manager · Annotations · Labels · Prometheus Operator · Kube-Prometheus · Grafana · Alermanager · Service Monitor · Wolfi · Cosign · Kyverno · Taints · Tolerations · Affinity · AntiAffinity · EKS · Ingress · Egress · Helpers · Role-Based Access Control (RBAC)
+>
 
 </br>
 
