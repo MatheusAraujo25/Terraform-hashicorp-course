@@ -20,7 +20,8 @@ O respositório está divido em pastas com base no que foi aprendido. Os arquivo
 
 ### 🔑 Conceitos chaves: 
 > [!IMPORTANT]
-> Compreessão e intendimento amplo sobre os states e sua importância no terraform para manter um ambiente estável e mutável quando existir a necessidade, sem tranformar o ambiente em uma bola de neve 🌨️. Controle sobre o terraform workflow 🌊.   
+> Compreessão e intendimento amplo sobre os states e sua importância no terraform para manter um ambiente estável e mutável quando existir a necessidade, sem tranformar o ambiente em uma bola de neve 🌨️. Controle sobre o terraform workflow 🌊.
+> Conhecimento sobre os principais comandos desde a execução até a movimentação feita por trás dos panos pelo próprio terraform 🚧.
 </br>
 
 ## 📜  Resumo de alguns aprendizados obtidos durarante a realização das aulas:
@@ -38,7 +39,7 @@ O respositório está divido em pastas com base no que foi aprendido. Os arquivo
 
 > [!NOTE]
 > ### Todos esses recursos foram explorados durante o curso:
-> Variables . Local variables . Data Block . Configuration Block . Module Block . OutputBlock .  providers .  TLS provider .  provisioners . taints . replace .  workspaces . Debugging . modules . module source . inputs . outputs module scope . public modules . modules versioning . terraform workflow . terraform workflow . etc. 
+> Variables · Local variables · Data Block · Configuration Block · Module Block · OutputBlock ·  Providers ·  TLS Provider ·  Provisioners · Taints · Replace ·  Workspaces · Debugging · Modules · Module Source · Inputs · Terraform Workflow · terraform init · terraform plan · terraform destroy · State locking · Default Backend · Backend Authentication · Backeend Storage · Remote State · Secrets · Vault · Life Cycle · etc.
 
 </br>
 
